@@ -1,6 +1,5 @@
 const tw = document.getElementById("toasts");
 
-
 function toast(message, typeOrOpts = "info", ttlMaybe = 3000) {
     const opts = typeof typeOrOpts === "object"
         ? { type: "info", ttl: 3000, dismissible: true, actionText: null, onAction: null, ...typeOrOpts }

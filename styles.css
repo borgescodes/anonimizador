@@ -1,3 +1,15 @@
+:root {
+    --toast-gap: 8px;
+    --toast-radius: 12px;
+    --toast-shadow: 0 10px 20px rgba(2, 6, 23, .20);
+    --toast-bg: #0f172a;
+    --toast-fg: #ffffff;
+    --toast-bg-success: #059669;
+    --toast-bg-warn: #b45309;
+    --out: 220ms;
+    --ttl: 3000ms;
+}
+
 .card {
     transition: transform .25s ease, box-shadow .25s ease;
 }
@@ -34,18 +46,6 @@ th.sticky {
     background: white;
     box-shadow: 0 1px 0 rgba(0, 0, 0, .06);
     z-index: 1;
-}
-
-:root {
-    --toast-gap: 8px;
-    --toast-radius: 12px;
-    --toast-shadow: 0 10px 20px rgba(2, 6, 23, .20);
-    --toast-bg: #0f172a;
-    --toast-fg: #ffffff;
-    --toast-bg-success: #059669;
-    --toast-bg-warn: #b45309;
-    --out: 220ms;
-    --ttl: 3000ms;
 }
 
 .toast-wrap {
